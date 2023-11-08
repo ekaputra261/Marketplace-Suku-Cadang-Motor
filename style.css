@@ -1,0 +1,68 @@
+:root{
+    --primaryColor : #ffff;
+    --secondaryColor : #ff0000;
+    --mainfont : 'Open Sans' sans-serif;
+    --headingfont : 'Merriweather', serif;
+}
+body{
+    font-family : var(--mainfont);
+}
+.heading{
+    font-family : var(--headingfont);
+    font-size: 36px;
+    font-weight: 700;
+}
+.subheading{
+    font-weight: 300;
+    font-size: 20px;
+}
+.navbar-brand{
+    font-family : var(--headingfont);
+    font-weight: 900;
+}
+.navbar{
+    background-color: var(--secondaryColor);
+}
+.nav-link.active{
+    font-family : var(--headingfont);
+    font-weight: 700;
+}
+.icons-home{
+    font-size: 1.8rem;
+    color: var(--primaryColor);
+}
+.home{
+    background-color: var(--secondaryColor);
+    height: 500px;
+    padding-top: 8rem;
+}    
+.home .heading{
+    color: var(--primaryColor);
+}
+.btn-home .bb{
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
+}
+.btn-home .bl{
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
+}
+.section-margin{
+    margin-top:100 px;
+}
+.col .heading{
+    color: var(--secondaryColor);
+}
+.col .subheading{
+    color: var(--secondaryColor);
+}
+.col .a{
+    color: var(--secondaryColor);
+}
+.footer{
+    background-color: var(--secondaryColor);
+    border-radius: 50px 50px 0px 0px;
+}
+.section-margin{
+    margin-top: 100px;
+}
